@@ -5,28 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df174e2a-df47-4ada-87e7-5dbfee7873f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/CargoType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/CouplerType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Enterprise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/GoodsWagon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Locomotive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/MotorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/PassengersCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/RailVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/RailroadCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Train.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Train.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

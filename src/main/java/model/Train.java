@@ -87,4 +87,9 @@ public class Train {
 
         return nums;
     }
+
+    @Override
+    public String toString() {
+        return String.format("id: %s", id);
+    }
 }
