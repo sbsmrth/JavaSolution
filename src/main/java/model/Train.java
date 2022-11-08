@@ -7,32 +7,28 @@ public class Train {
     private ArrayList<Locomotive> locomotives;
     private ArrayList<RailroadCar> railroadCars;
     private int id;
-
-    public Train() {
+    public Train(int id) {
         locomotives = new ArrayList<>();
         railroadCars = new ArrayList<>();
-    }
-
-    public Train(int id, ArrayList<Locomotive> locomotives, ArrayList<RailroadCar> railroadCars) {
         this.id = id;
-        this.locomotives = locomotives;
-        this.railroadCars = railroadCars;
     }
 
     public ArrayList<Locomotive> getLocomotives() {
         return locomotives;
     }
 
-    public void setLocomotives(ArrayList<Locomotive> locomotives) {
-        this.locomotives = locomotives;
+    public void addLocomotive(Locomotive locomotive) {
+        if(locomotives.size() < 2) {
+            locomotives.add(locomotive);
+        }
     }
 
     public ArrayList<RailroadCar> getRailroadCars() {
         return railroadCars;
     }
 
-    public void setRailroadCars(ArrayList<RailroadCar> railroadCars) {
-        this.railroadCars = railroadCars;
+    public void addRailroadCar(RailroadCar railroadCar) {
+        railroadCars.add(railroadCar);
     }
 
     public int getId() {
@@ -42,7 +38,7 @@ public class Train {
     public void setId(int id) {
         this.id = id;
     }
-    public int getTrainChairs() {
+    public int getLocalChairs() {
         int totalChairs = 0;
         for(RailroadCar railroadCar : railroadCars) {
             if(railroadCar instanceof PassengersCar) {

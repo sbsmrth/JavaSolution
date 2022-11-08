@@ -7,5 +7,6 @@ public enum CargoType {
    CAGE,
    TANK,
    CLOSED,
-   COOLED;
+   e:e:
+   eweee;
 }

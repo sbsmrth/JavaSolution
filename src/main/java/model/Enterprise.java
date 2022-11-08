@@ -2,6 +2,7 @@ package model;
 
 import java.lang.annotation.Target;
 import java.util.ArrayList;
+import java.util.Date;
 
 public class Enterprise {
     private String id;
@@ -9,10 +10,10 @@ public class Enterprise {
 
     private ArrayList<Train> trains;
 
-    public Enterprise(String id, String name, ArrayList<Train> trains) {
+    public Enterprise(String id, String name) {
+        trains = new ArrayList<>();
         this.id = id;
         this.name = name;
-        this.trains = trains;
     }
     public Enterprise() {
         trains = new ArrayList<>();
@@ -39,8 +40,8 @@ public class Enterprise {
         this.id = id;
     }
 
-    public void setTrains(ArrayList<Train> trains) {
-        this.trains = trains;
+    public void addTrain(Train train) {
+        trains.add(train);
     }
 
     public ArrayList<Train> listOfElectricTrains() {
@@ -54,5 +55,21 @@ public class Enterprise {
         }
 
         return electricTrains;
+    }
+    public Train exitsTrain(int id) {
+        for(Train train : trains) {
+            if(train.getId() == id) {
+                return train;
+            }
+        }
+        return null;
+    }
+
+    public int getChairsForTrain(int id) {
+        Train train = exitsTrain(id);
+        if(exitsTrain(id) != null) {
+            return train.getLocalChairs();
+        }
+        return 0;
     }
 }
